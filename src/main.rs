@@ -1,5 +1,4 @@
 use esp_idf_hal::prelude::*;
-use esp_idf_svc::sysloop::*;
 use std::{thread, time::Duration};
 
 fn main() -> anyhow::Result<()> {
